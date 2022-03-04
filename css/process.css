@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+   font-family:'webfont01';
+   src:url('../font/GowunDodum-Regular.ttf') format('truetype');
+}
+
+.hide{
+   width:0; height:0;
+   font-size:0; line-height:0;
+   position:absolute;
+   visibility: hidden;
+}
+#wrap{width:100%;}
+img{max-width:100%;}
+/* 공통 */
+#wrap>div>article,#wrap>div>header,#wrap>div>footer{
+   width:97% /* 1160px */;
+   margin:0  auto;
+}
+#box{
+   position:relative;
+   width:100%;
+   height:100vh;
+}
+/* header */
+#headerWrap{
+   position:absolute;
+   left:0; top:0;
+   width:100%;
+   padding:20px 0;
+   background-color:rgba(0, 0, 0, 0.5);
+   z-index:900;
+}
+header>h1>a>img{
+   position:absolute;
+   top:17.5%; right:50%;
+   margin-right:-46px;
+}
+header>nav{width:100%;}
+header>nav>ul:nth-child(2){float:left;}
+header>nav>ul:nth-child(3){float:right;}
+header>nav>ul{display:flex;}
+header>nav>ul>li{margin-left:20px;}
+header>nav>ul>li:first-child{margin-left:30px;}
+header>nav>ul>li:last-child{margin-right:30px;}
+header>nav>ul>li>a{
+   font: bold 18px 'webfont01',Arial, sans-serif;
+   color:#fff;
+   text-transform:uppercase;
+}
+.link>li>a>img{width:25px;}
+#headerWrap>ul.link{display:none;}
+/*  버튼 군단 */
+#btn{
+   display:none;
+   width:30px; height:30px;
+   position:absolute;
+   top:22px; left:28px;
+}
+#btn>span{
+   position:absolute;
+   top:0; left:0; 
+   width:100%;
+   height:3px;
+   background-color:#fff;
+}
+#btn>span:nth-child(2){top:40%;}
+#btn>span:nth-child(3){top:80%;}
+nav>.close{
+   display:none;
+   width:30px; height:30px;
+   position:absolute;
+   top:30px; right:30px;
+}
+nav>.close>span{
+   position:absolute;
+   top:50%;
+   display:block;
+   width:100%; height:3px;
+   background-color:#fff;
+}
+nav>.close>span:nth-child(1){transform:rotate(-135deg) translateX(0%);}
+nav>.close>span:nth-child(2){transform:rotate(-45deg) translateX(0%);}
+/* main */
+article{position:relative;}
+article h3{  
+   height:682px;
+   font:bold 50px 'webfont01',Arial,sans-serif;
+   color:#fff;
+   text-transform:uppercase;
+   text-align:center;
+   background:url('../images/process_back.jpg') no-repeat top center;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+}
+/* 공통 */
+section>div{
+   color:#fff;
+   text-align:center;
+}          
+section>div>h4{font:40px/85px 'webfont01',Arial,sans-serif;}         
+section>div>dl>dt{font:20px/60px 'webfont01',Arial,sans-serif;}
+section>div>dl>dd{font:15px/24px 'webfont01',Arial,sans-serif;}
+#box01{
+   height:100vh;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   background:url('../images/step01_back.jpg') no-repeat center top;
+}
+#box02{
+   height:100vh;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   background:url('../images/step02_back.jpg') no-repeat center top;
+}
+#box03{
+   height:100vh;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   background:url('../images/step03_back.jpg') no-repeat center top;
+}
+#box04{
+   height:100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background:url('../images/step04_back.jpg') no-repeat center top;
+}
+/* footer */
+#footerWrap{
+   padding:54px 165px;
+   background-color:#434343;
+}
+footer{
+   width:97% /* 1483px */;
+   margin:0 auto;
+   overflow:hidden;
+}
+dl.info{
+   overflow:hidden;
+   display:flex;
+ }
+dl.info>dt{flex-grow:1;}
+dl.info>dd{
+   display:flex;
+   flex-grow:3;
+   justify-content:space-between;
+}
+dl.info>dd>div{flex-grow:3;}
+dl.info>dd>div ul>li{display:inline-block;}
+dl.info>dd>div ul>li>a{
+   font:14px 'webfont01',Arial,sans-serif;
+   color:#fff;
+}
+footer dl>dd>div>div{
+   font:14px/20px 'webfont01',sans-serif;
+   color:#fff;
+}
+footer dl>dd>div>div>small{display:block;}
+footer dl>dd>div>div>address{
+   display:inline;
+   padding-right:5px;
+   font-style:normal;
+   border-right:1px solid #fff;
+}
+footer dl>dd>div>div>dl{display:inline;}
+footer dl>dd>div>div>dl>dt{display:inline;}
+footer dl>dd>div>div>dl>dd{display:inline;}
+footer dl.sns{
+   clear:both;
+   width:160px;
+   float:right;
+   flex-grow:1;
+}
+dl.sns>dd{
+   margin:0 5px;
+   display:inline-block;
+}
+dl.sns>dd>a>img{width:55px;}

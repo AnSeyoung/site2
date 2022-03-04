@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (min-width:1482px){
+   #wrap>div>article,#wrap>div>header,#wrap>div>footer{width:1482px;}
+   /* box01 */
+   #box01>section{width:1300px;}
+   #box01>section>dl{padding:15% 0 0 50%;}
+   /* box02 */
+   #box02>section{width:1300px;}
+   #box02>section>dl{padding:17.5% 50% 0 10%;}
+   /* box03 */
+   #box03 div.show{width:863px;}
+}
+@media screen and (max-width:1482px) and (min-width:980px){
+    /* header */
+    header>nav{width:100%;}
+    header>nav>ul{display:block;}
+    header>nav>ul>li{display:inline-block;}
+    header>nav>ul>li:first-child{margin-left:60px;}
+    header>nav>ul>li:last-child{margin-right:60px;}
+}
+@media screen and (max-width:979px) and (min-width:580px){
+   /* header */
+   #headerWrap{padding:35px 0;}
+   header>nav{
+      width:50%; height:100vh;
+		position:fixed;
+		left:-50%; top:0;
+      padding:25vh 7vw 0;
+		box-sizing:border-box;
+      background-color:#000;
+	}
+   header>nav{display:block;} 
+   header>nav>ul{display:block;}
+   header>nav>ul.link{display:flex;}
+   header>nav>ul>li{margin-left:0px;}
+   header>nav>ul.link>li{margin-left:15px;}
+   header>nav>ul:nth-child(2){float:none;}
+   header>nav>ul>li:first-child{margin-left:0px;}
+   header>nav>ul>li:last-child{margin-right:0px;}
+   header>nav>ul>li>a{
+      display:block;
+      font: bold 18px/10vh 'webfont01',Arial, sans-serif;
+      text-align:center;
+   }
+   /*  버튼 군단 */
+	#btn{display:block;}
+	nav>.close{display:block;}
+   article h3{
+      height:532px;
+      font:bold 40px 'webfont01',Arial,sans-serif;
+   }
+   article h3>span{background:url('../images/products1_back_tablet.jpg') no-repeat top center;
+   }
+   article h3>span.back01{background-image:url('../images/products1_back_tablet.jpg');}
+   article h3>span.back02{background-image:url('../images/products2_back_tablet.jpg');}
+   article ul.aside{padding-top:50px;}
+   /* box01 */
+   #box01{height:auto;}
+   #box01>section>h4{
+      padding-bottom:50px;
+      font:30px 'webfont01',Arial,sans-serif;
+   }
+   #box01>section>dl{
+      padding:530px 0 0 0;
+      text-align:center;
+      background:url('../images/products1.jpg') no-repeat top center;
+   }
+   #box01>section>dl>dt{font:25px/35px 'webfont01',Arial,sans-serif;}
+   /* box02 */
+   #box02{height:auto;}
+   #box02>section>h4{
+      padding-bottom:50px;
+      font:30px 'webfont01',Arial,sans-serif;
+   }
+   #box02>section>dl{
+      padding:530px 0 0 0;
+      text-align:center;
+      background:url('../images/products2.png') no-repeat top center;
+   }
+   #box02>section>dl>dt{font:25px/35px 'webfont01',Arial,sans-serif;}
+    /* box03 */
+    #box03>section>h4{font:bold 25px 'webfont01',Arial,sans-serif;}
+    #box03>section>p{font:bold 20px/32px 'webfont01',Arial,sans-serif;}
+    #box03 ul.all>li>dl>dd{
+       width:238px; height:238px;
+       font:22px 'webfont01',Arial,sans-serif;
+       color:#fff;
+    }
+    #box03 ul.all>li>p>button{
+       height:40px;
+       font:20px 'webfont01',Arial,sans-serif;
+    }
+	/* footer */
+	dl.info{
+      overflow:hidden;
+      display:initial;
+   }
+   dl.info>dt{
+      flex-grow:0;
+      padding-bottom:15px;
+      text-align:center;
+   }
+   dl.info>dd{
+      display:initial;
+      flex-grow:0;
+      justify-content:center;
+      text-align:center;
+   }
+   dl.info>dd>div{flex-grow:0;}
+   dl.info>dd>div ul>li>a{
+      font:14px 'webfont01',Arial,sans-serif;
+      color:#fff;
+   }
+   footer dl>dd>div>div{
+      font:14px/20px '나눔고딕',sans-serif;
+      color:#fff;
+   }
+   footer dl>dd>div>div>address{
+      display:inline;
+      font-style:normal;
+   }
+   footer dl.sns{
+      clear:both;
+      width:100%;
+      padding-top:10px;
+      float:none;
+      flex-grow:0;
+   }
+   dl.sns>dd>a>img{width:30px;}
+}
+@media screen and (max-width:579px){
+   /* header */
+   #headerWrap{padding:35px 0;}
+   header>nav{
+      width:100%; height:100vh;
+		position:fixed;
+		left:-100%; top:0;
+      padding:25vh 7vw 0;
+		box-sizing:border-box;
+      background-color:#000;
+	}
+   header>nav{display:block;} 
+   header>nav>ul{display:block;}
+   header>nav>ul.link{display:flex;}
+   header>nav>ul>li{margin-left:0px;}
+   header>nav>ul.link>li{margin-left:15px;}
+   header>nav>ul:nth-child(2){float:none;}
+   header>nav>ul>li:first-child{margin-left:0px;}
+   header>nav>ul>li:last-child{margin-right:0px;}
+   header>nav>ul>li>a{
+      display:block;
+      font:bold 18px/10vh 'webfont01',Arial, sans-serif;
+      text-align:center;
+   }
+   /*  버튼 군단 */
+	#btn{display:block;}
+	nav>.close{display:block;}
+   article h3{
+      height:382px;
+      font:bold 30px 'webfont01',Arial,sans-serif;
+   }
+   article h3>span{background:url('../images/products1_back_mobile.jpg') no-repeat top center;
+   }
+   article h3>span.back01{background-image:url('../images/products1_back_mobile.jpg');}
+   article h3>span.back02{background-image:url('../images/products2_back_mobile.jpg');}
+   /* box01 */
+   #box01{height:auto;}
+   #box01>section>h4{
+      padding-bottom:50px;
+      font:20px 'webfont01',Arial,sans-serif;
+   }
+   #box01>section>dl{
+      padding:530px 0 0 0;
+      text-align:center;
+      background:url('../images/products1.jpg') no-repeat top center;
+   }
+   #box01>section>dl>dt{font:20px/30px 'webfont01',Arial,sans-serif;}
+   /* box02 */
+   #box02{height:auto;}
+   #box02>section>h4{
+      padding-bottom:50px;
+      font:20px 'webfont01',Arial,sans-serif;
+   }
+   #box02>section>dl{
+      padding:530px 0 0 0;
+      text-align:center;
+      background:url('../images/products2.png') no-repeat top center;
+   }
+   #box02>section>dl>dt{font:20px/30px 'webfont01',Arial,sans-serif;}
+   /* box03 */
+   #box03>section>h4{font:bold 20px 'webfont01',Arial,sans-serif;}
+   #box03>section>p{font:bold 15px/27px 'webfont01',Arial,sans-serif;}
+   #box03 ul.all>li>dl>dd{
+      width:208px; height:208px;
+      font:20px 'webfont01',Arial,sans-serif;
+      color:#fff;
+   }
+   #box03 ul.all>li>p>button{
+      height:30px;
+      font:16px 'webfont01',Arial,sans-serif;
+   }
+	/* footer */
+   #footerWrap{
+      padding:54px 15px;
+      background-color:#434343;
+   }
+   dl.info{
+      overflow:hidden;
+      display:initial;
+   }
+   dl.info>dt{
+      flex-grow:0;
+      padding-bottom:10px;
+      text-align:center;
+   }
+   dl.info>dd{
+      display:initial;
+      flex-grow:0;
+      justify-content:none;
+      text-align:center;
+   }
+   dl.info>dd>div{flex-grow:0;}
+   dl.info>dd>div ul>li>a{
+      font:14px 'webfont01',Arial,sans-serif;
+      color:#fff;
+   }
+   footer dl>dd>div>div{
+      font:14px/20px '나눔고딕',sans-serif;
+      color:#fff;
+   }
+   footer dl>dd>div>div>address{
+      display:inline;
+      font-style:normal;
+   }
+   footer dl.sns{
+      clear:both;
+      width:100%;
+      padding-top:10px;
+      float:none;
+      flex-grow:0;
+   }
+   dl.sns>dd>a>img{width:20px;}
+}

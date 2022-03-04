@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (min-width:1482px){
+   #wrap>div>article,#wrap>div>header,#wrap>div>footer{width:1482px;}
+   section>div{width:1482px;} 
+}
+@media screen and (max-width:1482px) and (min-width:980px){
+   /* header */
+   header>nav{width:100%;}
+   header>nav>ul{display:block;}
+   header>nav>ul>li{display:inline-block;}
+   header>nav>ul>li:first-child{margin-left:80px;}
+   header>nav>ul>li:last-child{margin-right:80px;}
+}
+@media screen and (max-width:979px) and (min-width:580px){
+   /* header */
+   #headerWrap{padding:35px 0;}
+   header>nav{
+      width:50%; height:100vh;
+		position:fixed;
+		left:-50%; top:0;
+      padding:25vh 7vw 0;
+		box-sizing:border-box;
+      background-color:#000;
+	}
+   header>nav{display:block;} 
+   header>nav>ul{display:block;}
+   header>nav>ul.link{display:flex;}
+   header>nav>ul>li{margin-left:0px;}
+   header>nav>ul.link>li{margin-left:15px;}
+   header>nav>ul:nth-child(2){float:none;}
+   header>nav>ul>li:first-child{margin-left:0px;}
+   header>nav>ul>li:last-child{margin-right:0px;}
+   header>nav>ul>li>a{
+      display:block;
+      font: bold 18px/10vh 'webfont01',Arial, sans-serif;
+      text-align:center;
+   }
+   /*  버튼 군단 */
+	#btn{display:block;}
+	nav>.close{display:block;}
+	article h3{
+      height:532px;
+      font:bold 40px 'webfont01',Arial,sans-serif;
+      background:url('../images/about_back_tablet.jpg') no-repeat top center;
+   }
+	section>h4{font:30px 'webfont01',Arial,sans-serif;}
+	section>div{background:url('../images/history_back_tablet.jpg') repeat-y center top;}
+	section>div>dl.y2010{background:url('../images/history1_tablet.png') no-repeat left center;}
+	section>div>dl.y2009{background:url('../images/history2_tablet.png') no-repeat right center;}
+	section>div>dl.y2008{background:url('../images/history3_tablet.png') no-repeat left center;}
+	section>div>dl.y2007{background:url('../images/history4_tablet.png') no-repeat right center;}
+	section>div>dl.y1996{background:url('../images/history5_tablet.png') no-repeat left center;}
+	section>div>dl.y1963{background:url('../images/history6_tablet.png') no-repeat right center;}
+	section>div>dl>dt{padding-bottom:30px;}
+	section>div>dl>dd{font:14px/29px 'webfont01',Arial,sans-serif;}
+	section>div>dl>dt:first-child{padding-top:30px;}
+	/* footer */
+	dl.info{
+      overflow:hidden;
+      display:initial;
+   }
+   dl.info>dt{
+      flex-grow:0;
+      padding-bottom:15px;
+      text-align:center;
+   }
+   dl.info>dd{
+      display:initial;
+      flex-grow:0;
+      justify-content:center;
+      text-align:center;
+   }
+   dl.info>dd>div{flex-grow:0;}
+   dl.info>dd>div ul>li>a{
+      font:14px 'webfont01',Arial,sans-serif;
+      color:#fff;
+   }
+   footer dl>dd>div>div{
+      font:14px/20px '나눔고딕',sans-serif;
+      color:#fff;
+   }
+   footer dl>dd>div>div>address{
+      display:inline;
+      font-style:normal;
+   }
+   footer dl.sns{
+      clear:both;
+      width:100%;
+      padding-top:10px;
+      float:none;
+      flex-grow:0;
+   }
+   dl.sns>dd>a>img{width:30px;}
+}
+@media screen and (max-width:579px){
+   /* header */
+   #headerWrap{padding:35px 0;}
+   header>nav{
+      width:100%; height:100vh;
+		position:fixed;
+		left:-100%; top:0;
+      padding:25vh 7vw 0;
+		box-sizing:border-box;
+      background-color:#000;
+	}
+   header>nav{display:block;} 
+   header>nav>ul{display:block;}
+   header>nav>ul.link{display:flex;}
+   header>nav>ul>li{margin-left:0px;}
+   header>nav>ul.link>li{margin-left:15px;}
+   header>nav>ul:nth-child(2){float:none;}
+   header>nav>ul>li:first-child{margin-left:0px;}
+   header>nav>ul>li:last-child{margin-right:0px;}
+   header>nav>ul>li>a{
+      display:block;
+      font:bold 18px/10vh 'webfont01',Arial, sans-serif;
+      text-align:center;
+   }
+   /*  버튼 군단 */
+	#btn{display:block;}
+	nav>.close{display:block;}
+	article h3{
+      height:382px;
+      font:bold 30px 'webfont01',Arial,sans-serif;
+      background:url('../images/about_back_mobile.jpg') no-repeat top center;
+   }
+	section>h4{font:20px 'webfont01',Arial,sans-serif;}
+	section>div>dl>dd{
+		font:14px/34px 'webfont01',Arial,sans-serif;
+		color:#5c5c5c;
+	}
+   section>div{width:100%;}
+   section>div>dl.y2010{
+      padding-bottom:180px;
+      background:url('../images/history1_web.png') no-repeat center bottom;
+   }
+   section>div>dl.y2009{
+      padding-bottom:180px;
+      background:url('../images/history2_web.png') no-repeat center bottom;
+   }
+   section>div>dl.y2008{
+      padding-bottom:180px;
+      background:url('../images/history3_web.png') no-repeat center bottom;
+   }
+   section>div>dl.y2007{
+      padding-bottom:180px;
+      background:url('../images/history4_web.png') no-repeat center bottom;
+   }
+   section>div>dl.y1996{
+      padding-bottom:180px;
+      background:url('../images/history5_web.png') no-repeat center bottom;
+   }
+   section>div>dl.y1963{
+      padding-bottom:180px;
+      background:url('../images/history6_web.png') no-repeat center bottom;
+   }
+	/* footer */
+   #footerWrap{
+      padding:54px 15px;
+      background-color:#434343;
+   }
+   dl.info{
+      overflow:hidden;
+      display:initial;
+   }
+   dl.info>dt{
+      flex-grow:0;
+      padding-bottom:10px;
+      text-align:center;
+   }
+   dl.info>dd{
+      display:initial;
+      flex-grow:0;
+      justify-content:none;
+      text-align:center;
+   }
+   dl.info>dd>div{flex-grow:0;}
+   header>nav>ul>li>a{
+      display:block;
+      font: bold 18px/10vh 'webfont01',Arial, sans-serif;
+      text-align:center;
+   }
+   footer dl>dd>div>div{
+      font:14px/20px '나눔고딕',sans-serif;
+      color:#fff;
+   }
+   footer dl>dd>div>div>address{
+      display:inline;
+      font-style:normal;
+   }
+   footer dl.sns{
+      clear:both;
+      width:100%;
+      padding-top:10px;
+      float:none;
+      flex-grow:0;
+   }
+   dl.sns>dd>a>img{width:20px;}
+}
